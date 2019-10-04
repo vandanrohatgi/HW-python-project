@@ -43,11 +43,11 @@ for example if the name of our movie is stored in the variable 'chosen'
 we loop over individual alphabets of the movie and use an if-else statement to check if it is a vowel or not.
 
 a small example of how you can achieve this is:
-for x in chosen:
+<pre> for x in chosen:
   if x=='type condition for vowel here':
     toshow.append(x)
   else:
-    toshow.append('_')
+    toshow.append('_')</pre>
  when finally the loop is done we will have something like this ' a___/_o__e_' stored in our list. 
  
  pro tip: use use print() funtion to see what different elements look like.
