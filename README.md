@@ -19,6 +19,11 @@ Make sure you save it with ".py" extension at the end to indicate to computer th
 for first task we will make a list of all the movies that we will want. You can you the list I have provided or make your own.
 A list is just used to store stuff.
 next will create two more lists that will contain the vowels and the word 'hollywood'.
+listofmovies=['avengers endgame','star wars the force awakens','avengers infinity war','jurassic world','the lion king','furious seven','black panther','harry potter',
+'frozen','beauty and the beast','incredibles two','iron man three','minions','aquaman','aladdin','finding dory','zootopia','spectre','spider man homecoming','batman v superman','hunger games'
+]
+vowels=['a','e','i','o','u']
+string=['h','o','l','l','y','w','o','o','d']
 
 next we will use our first library/module known as random. It handles all the tasks that require generating/choosing random values.
 Use it to choose a random movie from the list of movies.Particularly use the random.choice() method.
@@ -26,7 +31,7 @@ refer https://docs.python.org/2/library/random.html to know more about random an
 
 next task is to convert the randomly chosen movie to the form that we know:-
 
-harry potter ->  _a___/_o__e_
+harry potter ->  '_a___/_o__e_'
 we remove all consonants and only leave the vowels.
 first create an empty list like this :-
 toshow=[] or toshow=list()
@@ -43,7 +48,7 @@ for x in chosen:
     toshow.append(x)
   else:
     toshow.append('_')
- when finally the loop is done we will have something like this _a___/_o__e_ stored in our list. 
+ when finally the loop is done we will have something like this '_a___/_o__e_' stored in our list. 
  
  pro tip: use use print() funtion to see what different elements look like.
 
