@@ -31,7 +31,7 @@ refer https://docs.python.org/2/library/random.html to know more about random an
 
 next task is to convert the randomly chosen movie to the form that we know:-
 
-harry potter ->  '_a___/_o__e_'
+harry potter ->  ' a   / o  e '
 we remove all consonants and only leave the vowels.
 first create an empty list like this :-
 toshow=[] or toshow=list()
@@ -48,7 +48,7 @@ for x in chosen:
     toshow.append(x)
   else:
     toshow.append('_')
- when finally the loop is done we will have something like this '_a___/_o__e_' stored in our list. 
+ when finally the loop is done we will have something like this ' a___/_o__e_' stored in our list. 
  
  pro tip: use use print() funtion to see what different elements look like.
 
