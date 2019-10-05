@@ -18,6 +18,9 @@ Make sure you save it with ".py" extension at the end to indicate to computer th
 # Its coding Time!
 for first task we will make a list of all the movies that we will want. You can you the list I have provided or make your own.
 A list is just used to store stuff.
+
+to know about functions that can be performed on a list refer to https://www.geeksforgeeks.org/list-methods-python/
+
 next will create two more lists that will contain the vowels and the word 'hollywood'.
 listofmovies=['avengers endgame','star wars the force awakens','avengers infinity war','jurassic world','the lion king','furious seven','black panther','harry potter',
 'frozen','beauty and the beast','incredibles two','iron man three','minions','aquaman','aladdin','finding dory','zootopia','spectre','spider man homecoming','batman v superman','hunger games'
@@ -50,6 +53,8 @@ a small example of how you can achieve this is:
     toshow.append('_')</pre>
  when finally the loop is done we will have something like this ' a___/_o__e_' stored in our list. 
  
- pro tip: use use print() funtion to see what different elements look like.
-
+ pro tip: use use print() funtion to see what different elements look like at different stages in your program.
+ 
+Finally to test/run the program you have written open the terminal type 'python nameofthefile.py' in the terminal where replace the nameofthefile with name you saved the file with.
+for the above command to work you should use the 'cd' command to enter the folder where your python script is saved.
 at the end of week 1 I wil post the code to task 1.
